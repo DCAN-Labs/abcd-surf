@@ -317,11 +317,6 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'The lines delineating the gray and white matter are called surface delineations. How well the gray and white matter is delineated will signify the quality of the surface delineation.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/deline.JPG',
-        },
-        {
-            // use \n to linebreak the text
           text: 'There are 7 types of images in 3 different planes to asses the surface delineation quality of the T1',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/planes.JPG',
         },
@@ -330,24 +325,77 @@ export default {
           text: 'Ignore the subcortical regions highlighted between the temporal lobes in the coronal view. Surface delineation is only concerned with the outer area of the brain called the cortex.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/subcort.JPG',
         },
+        {
+            // use \n to linebreak the text
+          text: 'The lines delineating the gray and white matter are called surface delineations. How well the gray and white matter is delineated will signify the quality of the surface delineation. Look below below at common errors in surface delineation.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/deline.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Blurriness occurs when the participant is moving in the scanner and can make it difficult to delineate the surface.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/blurryfail.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Blurriness in the T1 does not always make the surface delineation bad',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/blurrypass.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Ringing occurs when the participant is moving in the scanner and can disrupt the surface delineation because the rings can be mistaken as brain or make the brain matter unrecognizable',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/ringingfail.JPG',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Ringing in the T1 does not always make the surface delineation bad',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/ringingpass.JPG',
+        },
+        {
+          text: 'Common surface delineation errors due to boundary issues include 1) White matter extension. 2) Surface delineation goes outside of the brain. 3) Overlapping surface delineations - gray and/or white matter lines cross over each other.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/14-T1Surf.JPG',
+        },
+        {
+          text: 'Warps of the brain, skull, and surface delineations are caused by poor atlas registration. These warps appear to "pull" the brain and surface delineations.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/15-T1Surf.JPG',
+        },
+        {
+          text: '',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/18-T1Surf.JPG',
+        },
+        {
+          text: 'The quality of the surface delineation depends on how well the gray and white matter is delineated',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/16-T1Surf.JPG',
+        },
+        {
+          text: '',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/17-T1Surf.JPG',
+        },
+        {
+          text: '',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/19-T1Surf.JPG',
+        },
+        {
+          text: '',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/20-T1Surf.JPG',
+        },
       ],
       examples: [
         {
             // fill these with examples with respect to the widget you're using
           text: 'swipe right when the image is good quality',
-          pointer: 'sub-NDARYX806FL1__cor_184',
+          pointer: 'NDARINV02RCED7D_baselineYear1Arm1_T1-Coronal-OrbitoFrontal',
           answer: 1,
           tutorialStep: 0,
         },
         {
           text: 'swipe left when its bad',
-          pointer: 'sub-NDAREG590BNY__sag_201',
+          pointer: 'old_NDARINVTMFT5TJF_baselineYear1Arm1_T1-Sagittal-Insula-FrontoTemporal_copy1',
           answer: 0,
           tutorialStep: 1,
         },
         {
           text: `if you're not sure, click 'help' \n to discuss with scientists ${''}`,
-          pointer: 'sub-NDAREW671HZW__ax_86',
+          pointer: 'NDARINV00HEV6HB_baselineYear1Arm1_T1-Axial-BasalGangila-Putamen',
           answer: 0,
           tutorialStep: 2,
         },

@@ -15,9 +15,7 @@
     <!-- Introduction steps -->
     <div v-for="(step, index) in steps.intro" class="fullpage">
       <div class="" :id="'intro'+index">
-        <!-- <vue-typer v-if="currentBin.bin === index" :text='step.text' :repeat='0' class="message" :type-delay='50'></vue-typer> -->
         <p v-html="step.text"></p>
-        <span class="invisible">{{step.text}}</span>
       </div>
       <img :src="step.image" class="mt-3 pt-3 img"/>
     </div>
