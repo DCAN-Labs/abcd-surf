@@ -16,6 +16,7 @@
     <div v-for="(step, index) in steps.intro" class="fullpage">
       <div class="" :id="'intro'+index">
         <p v-html="step.text"></p>
+        <span class="invisible">{{step.text}}</span>
       </div>
       <img :src="step.image" class="mt-3 pt-3 img"/>
     </div>
