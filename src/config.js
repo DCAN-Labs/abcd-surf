@@ -313,22 +313,22 @@ export default {
         {
             // use \n to linebreak the text
           text: 'The T1-weighted image is classified into white and gray matter. Gray matter is made up of folds with the “hills” called gyri and “valleys” called sulci that are delineated by red lines. White matter is delineated by black lines.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/GM_WM.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/GM_WM.JPG',
         },
         {
             // use \n to linebreak the text
           text: 'The lines delineating the gray and white matter are called surface delineations. How well the gray and white matter is delineated will signify the quality of the surface delineation.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/deline.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/deline.JPG',
         },
         {
             // use \n to linebreak the text
           text: 'There are 7 types of images in 3 different planes to asses the surface delineation quality of the T1',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/planes.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/planes.JPG',
         },
         {
             // use \n to linebreak the text
           text: 'Ignore the subcortical regions highlighted between the temporal lobes in the coronal view. Surface delineation is only concerned with the outer area of the brain called the cortex.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/subcort.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/subcort.JPG',
         },
       ],
       examples: [
