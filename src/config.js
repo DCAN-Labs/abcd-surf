@@ -307,13 +307,28 @@ export default {
       intro: [
         {
             // keep the text really short
-          text: 'here is an example tutorial step',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Humpback_whales_in_singing_position.jpg',
+          text: 'In the ABCD study, the structural image of the brain is the T1-weighted image. This image is a clear snapshot of the brain at one time-point and is used to measure physically characteristics like shape.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/atlas_justimg.jpg',
         },
         {
             // use \n to linebreak the text
-          text: 'here is another one.',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Hydrophone_being_lowered_into_the_Atlantic.jpg',
+          text: 'The T1-weighted image is classified into white and gray matter. Gray matter is made up of folds with the “hills” called gyri and “valleys” called sulci that are delineated by red lines. White matter is delineated by black lines.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/GM_WM.jpg',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'The lines delineating the gray and white matter are called surface delineations. How well the gray and white matter is delineated will signify the quality of the surface delineation.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/deline.jpg',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'There are 7 types of images in 3 different planes to asses the surface delineation quality of the T1',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/planes.jpg',
+        },
+        {
+            // use \n to linebreak the text
+          text: 'Ignore the subcortical regions highlighted between the temporal lobes in the coronal view. Surface delineation is only concerned with the outer area of the brain called the cortex.',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/subcort.jpg',
         },
       ],
       examples: [
