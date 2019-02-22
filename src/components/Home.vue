@@ -96,7 +96,7 @@ a {
 }
 
 .landing {
-  background-color: white;
+  background-color: #42b983;
   /* background-image: url('../assets/whaldrStatic.png'); */
   background-repeat: no-repeat;
   background-position: center;

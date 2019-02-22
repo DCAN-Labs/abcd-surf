@@ -276,7 +276,7 @@ export default {
     title: 'ABCD Surface Swipes For Science',
     tagline: 'Quality control of ABCD Study surface delineations',
       // background image on Homepage
-    backgroundUrl: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/homepage3.png',
+    backgroundUrl: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/homepage1.png',
   },
 
     // Play configuration
