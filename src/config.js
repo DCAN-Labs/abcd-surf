@@ -312,7 +312,7 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'On the T1, you can classify white and gray matter. \nGray matter is made up of folds with the “hills” called gyri and “valleys” called sulci delineated by red lines. \nWhite matter is delineated by black lines.',
+          text: 'On the T1, you can classify white and gray matter. \nGray matter is made up of folds with the “hills” called gyri and “valleys” called sulci delineated by red lines. \nWhite matter is delineated by dark gray lines.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/GM_WM.JPG',
         },
         {
