@@ -327,7 +327,7 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'The lines delineating the gray and white matter are called surface delineations. How well the gray and white matter is delineated will signify the quality of the surface delineation. Look below below at common errors in surface delineation.',
+          text: 'The lines delineating the gray and white matter are called surface delineations. How well the gray and white matter is delineated will signify the quality of the surface delineation. Look below for common errors in surface delineation.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/deline.JPG',
         },
         {
@@ -337,21 +337,30 @@ export default {
         },
         {
             // use \n to linebreak the text
-          text: 'Blurriness in the T1 does not always make the surface delineation bad',
+          text: 'Blurriness in the T1 does not always make the surface delineation bad quality',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/blurrypass.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Ringing occurs when the participant is moving in the scanner and can disrupt the surface delineation because the rings can be mistaken as brain or make the brain matter unrecognizable',
+          text: 'Ringing occurs when the participant is moving in the scanner and can disrupt the surface delineation because the rings can be mistaken as brain or make the brain unrecognizable.',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/ringingfail.JPG',
         },
         {
             // use \n to linebreak the text
-          text: 'Ringing in the T1 does not always make the surface delineation bad',
+          text: 'Ringing in the T1 does not always make the surface delineation bad quality',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/ringingpass.JPG',
         },
         {
-          text: 'Common surface delineation errors due to boundary issues include 1) White matter extension. 2) Surface delineation goes outside of the brain. 3) Overlapping surface delineations - gray and/or white matter lines cross over each other.',
+            // use \n to linebreak the text
+          text: 'White matter extension is when the white matter is poorly delineated and extends to the gray matter line. ',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/whitematter.PNG',
+        },
+        {
+          text: 'Another error is when the surface delineation goes outside of the brain and into the dura or skull. The dura is the faint gray line between the brain and the skull, which is the thick white line. ',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/duraskull.jpg',
+        },
+        {
+          text: 'The image is also bad quality when the white and gray matter surface delineations cross over each other. ',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/14-T1Surf.jpg',
         },
         {
@@ -359,17 +368,18 @@ export default {
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/15-T1Surf.jpg',
         },
         {
+          text: 'Below are examples of good and bad quality surface delineation:',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/17-T1Surf.jpg',
+        },
+        {
           text: '',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/18-T1Surf.jpg',
         },
         {
-          text: 'The quality of the surface delineation depends on how well the gray and white matter is delineated',
+          text: '',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/16-T1Surf.jpg',
         },
-        {
-          text: '',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/17-T1Surf.jpg',
-        },
+
         {
           text: '',
           image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/19-T1Surf.jpg',
