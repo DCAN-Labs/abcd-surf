@@ -357,7 +357,7 @@ export default {
         },
         {
           text: 'Another error is when the surface delineation goes outside of the brain and into the dura or skull. The dura is the faint gray line between the brain and the skull, which is the thick white line. ',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/duraskull.jpg',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/duraskull.JPG',
         },
         {
           text: 'The image is also bad quality when the white and gray matter surface delineations cross over each other. ',
