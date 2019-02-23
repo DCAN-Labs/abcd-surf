@@ -276,7 +276,7 @@ export default {
     title: 'ABCD Surface Swipes For Science',
     tagline: 'Quality control of ABCD Study surface delineations',
       // background image on Homepage
-    backgroundUrl: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/homepage1.png',
+    backgroundUrl: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/homepage.jpg',
   },
 
     // Play configuration
@@ -352,31 +352,31 @@ export default {
         },
         {
           text: 'Common surface delineation errors due to boundary issues include 1) White matter extension. 2) Surface delineation goes outside of the brain. 3) Overlapping surface delineations - gray and/or white matter lines cross over each other.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/14-T1Surf.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/14-T1Surf.jpg',
         },
         {
           text: 'Warps of the brain, skull, and surface delineations are caused by poor atlas registration. These warps appear to "pull" the brain and surface delineations.',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/15-T1Surf.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/15-T1Surf.jpg',
         },
         {
           text: '',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/18-T1Surf.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/18-T1Surf.jpg',
         },
         {
           text: 'The quality of the surface delineation depends on how well the gray and white matter is delineated',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/16-T1Surf.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/16-T1Surf.jpg',
         },
         {
           text: '',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/17-T1Surf.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/17-T1Surf.jpg',
         },
         {
           text: '',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/19-T1Surf.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/19-T1Surf.jpg',
         },
         {
           text: '',
-          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/20-T1Surf.JPG',
+          image: 'https://raw.githubusercontent.com/DCAN-Labs/abcd-surf/master/config/tutorial_imgs/20-T1Surf.jpg',
         },
       ],
       examples: [
