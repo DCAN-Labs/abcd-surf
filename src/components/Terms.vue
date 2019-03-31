@@ -26,8 +26,6 @@ Welcome to the Swipes for Science Brain QC App! We're very excited to have you j
     <p style="text-align: left">
     5.  Data within this application have been stripped of all identifiable information and will not be used in an attempt to establish individual identities from the study.
     </p>
-
-
   </div>
 </template>
 <style>
