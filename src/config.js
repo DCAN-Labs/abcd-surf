@@ -263,7 +263,7 @@ export default {
     databaseURL: 'https://abcd-surf.firebaseio.com',
     projectId: 'abcd-surf',
     storageBucket: 'abcd-surf.appspot.com',
-    messagingSenderId: '449971967589'
+    messagingSenderId: '449971967589',
   },
 
   app: {
